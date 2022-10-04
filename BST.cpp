@@ -1,8 +1,7 @@
 // BINARY SEARCH TREE IMPLEMENTATION IN C++
-// This is my code copied by Romil Gupta
 #include<bits/stdc++.h>
 using namespace std;
-typedef long long ll;
+define ix int;
 
 // BST Class
 template<class T>

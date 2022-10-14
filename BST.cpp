@@ -229,17 +229,6 @@ void BST<T>::Traversals()
     }
 }
 
-// Implements PREORDER Traversal
-template<typename T>
-void BST<T>::preorder(Node* root)
-{
-    if(root==NULL)
-    return;
-    cout << root->data << " ";
-    preorder(root->left);
-    preorder(root->right);
-}
-
 // Implements INORDER Traversal
 template<typename T>
 void BST<T>::inorder(Node* root)
@@ -311,4 +300,5 @@ int main()
     // delete(obj);
     return 0;
 }
+//zindigi me mazze
 Footer

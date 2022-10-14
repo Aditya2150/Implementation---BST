@@ -251,24 +251,7 @@ void BST<T>::postorder(Node* root)
     cout << root->data << " ";
 }
 
-// Finds the Root/Top Node from the BST.
-template<typename T>
-void BST<T>::Top()
-{
-    cout << "Top Element--> " << head->data << endl;
-}
 
-//  Checks if the BST is Empty or NOT..
-template<typename T>
-bool BST<T>::isEmpty()
-{
-    if(head==NULL)
-    {
-        cout << "\nBST is Empty...\n\n";
-        return true;
-    }
-    return false;
-}
 
 
 // Driver Code
@@ -300,5 +283,23 @@ int main()
     // delete(obj);
     return 0;
 }
-//zindigi me mazze
+
+// Finds the Root/Top Node from the BST.
+template<typename T>
+void BST<T>::Top()
+{
+    cout << "Top Element--> " << head->data << endl;
+}
+
+//  Checks if the BST is Empty or NOT..
+template<typename T>
+bool BST<T>::isEmpty()
+{
+    if(head==NULL)
+    {
+        cout << "\nBST is Empty...\n\n";
+        return true;
+    }
+    return false;
+}
 Footer
